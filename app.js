@@ -46,6 +46,8 @@ function limpiarCaja(){
 function generarNumeroSecreto() {
     // Generar un número aleatorio entre 1 y el número máximo
     let numeroGenerado = Math.floor(Math.random() * numeroMaximo) + 1;
+    // console.log(numeroGenerado); 
+    // console.log(listaNumerosSorteados);
 
     // Verificar si el número generado ya fue sorteado
     if (listaNumerosSorteados.length == numeroMaximo){
